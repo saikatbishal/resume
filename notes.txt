@@ -1,0 +1,3 @@
+npm init -y
+{y supreses any question and gives the default settings}
+the package.json file is created because of this init command on the bash
