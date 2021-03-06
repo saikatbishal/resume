@@ -1,3 +1,12 @@
 npm init -y
 {y supreses any question and gives the default settings}
 the package.json file is created because of this init command on the bash
+
+C++ 
+Android/Web Development
+Machine Learning
+SQL
+Python
+DSA
+
+This is my Web Portfolio. While the main purpose of this portfolio is to tell about my professional achievements and education, it can also be seen as one of my small projects to showcase my web development skills. 
