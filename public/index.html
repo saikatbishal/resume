@@ -85,7 +85,7 @@
             <div class="h4 mt-0 title">Basic Information</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">24</div>
+              <div class="col-sm-8"><span class="age"></span></div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -579,4 +579,15 @@
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
   </body>
+  <script>
+    const ShowDate = () => {
+    var dob = new Date("March 22 1998 00:00");
+    let date = new Date();
+    var age = (date.getTime() - dob.getTime()) / (365 * 60 * 60 * 24 * 100)
+    age = Math.round(age);
+    // document.querySelector('.output').textContent = date;
+    //document.querySelector('.output2').textContent = dob;
+    document.querySelector('.age').textContent = age;
+}
+  </script>
 </html>
