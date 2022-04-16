@@ -18,6 +18,13 @@
         }
       </style>
     </noscript>
+    <script>
+      var dob = new Date("March 22 1998 00:00");
+      var date = new Date();
+      var age = (date.getTime() - dob.getTime()) / (365 * 60 * 60 * 24 * 1000);
+      age = Math.round(age);
+      document.querySelector('.age').textContent = age;
+    </script>
   </head>
   <body id="top">
     <header>
@@ -50,7 +57,7 @@
       <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
       <div class="container">
         <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="images/saikat.png" alt="Image"/></a></div>
+          <div class="cc-profile-image"><a href="#"><img src="images/BIs.jpg" alt="Image"/></a></div>
           <div class="h1 title">Saikat Bishal</div>
           <p class="category text-white">OpenSource enthusiast, web developer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="https://github.com/saikatbishal/saikatbishal/blob/master/SAIKAT_BISHAL_.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
@@ -75,7 +82,7 @@
           <div class="card-body">
             <div class="h4 mt-0 title">About</div>
             <p>Hello! I am Saikat Bishal. A <b> full stack Web developer</b> and <b>OpenSource</b> contributer.</p>
-            <p>I love collaborating and with people and learn from them. I also teach and provide  free guidance. Currently working full-time for <strong>Larsen and Toubro Infotech</strong> (India)  <a href="#" target="_blank">Learn More</a></p>
+            <p>I love collaborating and with people and learn from them. I also teach and provide  free guidance. Currently working full-time for <strong>Larsen and Toubro Infotech</strong> as a <b>Senior Data Engineer</b> <a href="https://www.linkedin.com/in/saikat-bishal/" target="_blank">Learn More</a></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -83,7 +90,7 @@
             <div class="h4 mt-0 title">Basic Information</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">23</div>
+              <div class="col-sm-8 age"></div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -114,14 +121,14 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">C++</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">PYTHON</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Android Development</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">SQL</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
               </div>
@@ -130,14 +137,14 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Back-End</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">NODE JS</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Front-End</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">REACT JS</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
               </div>
@@ -153,9 +160,9 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">DSA</span>
+            <div class="progress-container progress-primary"><span class="progress-badge">AWS</span>
               <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div><span class="progress-value">40%</span>
               </div>
             </div>
           </div>
@@ -255,44 +262,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="tab-pane" id="Photography" role="tabpanel"></div>
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Wedding Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Beach Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Nature Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </div>
   </div>
 </div>
@@ -367,9 +336,9 @@
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Graduate Engineer Trainee</div>
+            <div class="h5">Senior Data Engineer</div>
             <p class="category">Larsen and Toubro Infotech</p>
-            <p>Created solution for data processing for large amount of information with SQL and Python with a dedicted backend team. Automated SQL Scripts to run at backend using Microsoft SQL Server. </p>
+            <p>Created solution for data processing for large amount of information with SQL and Python with a dedicated backend team. Automated SQL Scripts to run at backend using Microsoft SQL Server. </p>
           </div>
         </div>
       </div>
