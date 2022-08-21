@@ -169,18 +169,20 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div class="h4 text-center mb-4 title portfolio">Portfolio</div>
+        <div class="h4 text-center mb-4 title portfolio hidden">Blogs</div>
+
         <div class="nav-align-center">
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#android-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link nav-link-one active" data-toggle="tab" href="#android-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link nav-link-two" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
             <!-- <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li> -->
           </ul>
         </div>
-      </div>
+      </div> 
     </div>
     <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="android-development">
+      <div class="tab-pane active tab-pane-one" id="android-development">
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
@@ -218,7 +220,7 @@
           </div>
         </div>
       </div>
-      <div class="tab-pane" id="graphic-design" role="tabpanel">
+      <div class="tab-pane tab-pane-two" id="graphic-design" role="tabpanel">
         <div class="ml-auto mr-auto">
           <div class="row">
             <div class="col-md-6">
@@ -577,6 +579,7 @@
     <script src="js/now-ui-kit.js?ver=1.1.0"></script>
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script src="scripts/main2.js"></script>
   </body>
   <script>
     const ShowDate = () => {
