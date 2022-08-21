@@ -16,3 +16,7 @@
 ::-webkit-scrollbar-thumb:hover{
     background: hsl(120 75% 60% / 0.5);
 }
+b{
+    font-weight: 500;
+    font-size: 17px;
+}
