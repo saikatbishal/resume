@@ -41,3 +41,12 @@ $('a.smooth-scroll')
     }
   }
 });
+var navLink = document.querySelectorAll('.nav-link');
+navLink.forEach(nv => {
+    nv.addEventListener('click', () => {
+        var portfolio = document.querySelectorAll('.portfolio');
+        portfolio.forEach(prt => {
+            prt.classList.toggle('hidden')
+        })
+    })
+})

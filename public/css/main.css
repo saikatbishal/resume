@@ -205,7 +205,9 @@
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-blue ~ .bootstrap-switch-default {
   background-color: #2CA8FF; }
-
+.hidden{
+  display : none;
+}
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-red,
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-brown,
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-blue,
